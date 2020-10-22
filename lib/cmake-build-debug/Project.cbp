@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolanda">
+				<Option output="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/libyolanda.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 yolanda"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolanda/fast">
+				<Option output="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/libyolanda.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 yolanda/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangrufeng/CPP_test/http_server/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/acceptor.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/acceptor.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/buffer.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/buffer.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/channel.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/channel.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/channel_map.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/channel_map.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/event_loop.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/event_loop.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/event_loop_thread.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/event_loop_thread.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/http_request.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/http_request.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/http_response.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/http_response.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/http_server.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/http_server.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/log.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/log.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/poll_dispatcher.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/read.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/sock_ntop.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/tcp_client.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/tcp_connection.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/tcp_connection.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/tcp_server.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/tcp_server.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/thread_pool.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/thread_pool.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/utils.c">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/utils.h">
+			<Option target="yolanda"/>
+		</Unit>
+		<Unit filename="/Users/wangrufeng/CPP_test/http_server/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,5 +1,5 @@
 if (EPOLL_EXISTS)
-    set(yolanda_lib
+    set(server_lib
             log.c
             sock_ntop.c
             read.c
@@ -21,7 +21,7 @@ if (EPOLL_EXISTS)
             http_response.c
             )
 else ()
-    set(yolanda_lib
+    set(server_lib
             log.c
             sock_ntop.c
             read.c
@@ -44,10 +44,10 @@ else ()
 endif ()
 
 
-add_library(yolanda ${yolanda_lib})
-target_link_libraries(yolanda pthread)
+add_library(wrf ${server_lib})
+target_link_libraries(wrf pthread)
 
-install(TARGETS yolanda DESTINATION lib)
+install(TARGETS wrf DESTINATION lib)
 
 #file(GLOB HEADERS "*.h")
 #install(FILES ${HEADERS} DESTINATION include/)
